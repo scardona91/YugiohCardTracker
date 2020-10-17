@@ -34,7 +34,6 @@ CREATE TABLE IF NOT EXISTS `yugioh_db`.`card` (
   `defense` INT NULL DEFAULT NULL,
   `pendulum_effect` VARCHAR(4000) NULL DEFAULT NULL,
   `des_effect` VARCHAR(4000) NULL DEFAULT NULL,
-  `deck_id` VARCHAR(200) NULL DEFAULT NULL,
   PRIMARY KEY (`card_id`))
 ENGINE = InnoDB
 DEFAULT CHARACTER SET = utf8
